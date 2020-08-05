@@ -1,0 +1,36 @@
+{
+  "name": "dot-wallet-wishlist",
+  "version": "1.0.0",
+  "description": "A wishlist for dotwallet projects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jewcub/dot-wallet-wishlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jewcub/dot-wallet-wishlist/issues"
+  },
+  "homepage": "https://github.com/Jewcub/dot-wallet-wishlist#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "nodemon": "^2.0.4"
+  }
+}
